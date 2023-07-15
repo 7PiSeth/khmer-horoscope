@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/khmer-horoscope/static/css/main.0ae5d982.css",
+    "main.js": "/khmer-horoscope/static/js/main.de74dd51.js",
+    "index.html": "/khmer-horoscope/index.html",
+    "main.0ae5d982.css.map": "/khmer-horoscope/static/css/main.0ae5d982.css.map",
+    "main.de74dd51.js.map": "/khmer-horoscope/static/js/main.de74dd51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae5d982.css",
+    "static/js/main.de74dd51.js"
+  ]
+}
