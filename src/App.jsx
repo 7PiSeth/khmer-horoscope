@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <TopBar />
-      <div className='max-w-screen-lg mx-auto'>
+      <div className='max-w-screen-lg px-1 mx-auto'>
         <ZodiacSigns />
         <Details />
       </div>
