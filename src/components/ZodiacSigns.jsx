@@ -28,19 +28,18 @@ const zodiacSignImgArr = [
 ]
 
 const ZodiacSigns = () => {
-  return (<>
-    <div className='flex flex-wrap'>
-      {zodiacSignImgArr.map(({ id, imgSrc, name }) => (
-        <div key={id} className='flex m-1 flex-col items-center bg-[#F4F6F8] dark:bg-[#161B22] w-28 p-1 rounded-xl'>
-          <img src={imgSrc} alt="" />
-          <h1>{name}</h1>
-        </div>
-      ))
-      }
+  return (
+    <div>
+      <div className='flex flex-wrap justify-center'>
+        {zodiacSignImgArr.map(({ id, imgSrc, name }) => (
+          <div key={id} className='relative flex flex-col m-1 items-center justify-end p-3 rounded-xl'>
+            <img className='object-fill' src={imgSrc} alt={name + '.jpg'} />
+            <h1 className='mt-2'>{name}</h1>
+          </div>
+        ))
+        }
+      </div>
     </div>
-
-  </>
-
   )
 }
 

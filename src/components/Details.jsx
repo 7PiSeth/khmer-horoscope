@@ -2,7 +2,7 @@ import React from 'react'
 import g1 from "../assets/images/woman/12.jpg"
 import m1 from "../assets/images/man/5.jpg"
 
-const Avatars = () => {
+const Details = () => {
   return (
     <div>
       <div className='flex items-start mt-7'>
@@ -17,4 +17,4 @@ const Avatars = () => {
   )
 }
 
-export default Avatars
+export default Details
