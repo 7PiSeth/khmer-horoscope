@@ -20,7 +20,7 @@ const TopBar = () => {
             className="w-1/2 h-full p-2 z-10"
             onClick={() => {
               document.querySelector("meta[name='theme-color']").content =
-                "#FFFFFF";
+                "#E3E8EF";
               setDarkMode(false);
             }}
           >
