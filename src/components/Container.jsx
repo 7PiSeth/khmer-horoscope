@@ -42,7 +42,7 @@ const Container = () => {
         ))
         }
       </div>
-      <Details selectedZodiac={selectedZodiac - 1} />
+      <Details selectedZodiac={selectedZodiac} />
     </div>
   )
 }
