@@ -25,7 +25,7 @@ const zodiacSignImgArr = [
 ]
 
 const Container = () => {
-  const [selectedZodiac, setSelectedZodiac] = useState(1);
+  const [selectedZodiac, setSelectedZodiac] = useState(2);
   return (
     <div className='sm:my-10'>
       <div className='flex flex-wrap justify-center'>
@@ -42,7 +42,7 @@ const Container = () => {
         ))
         }
       </div>
-      <Details selectedZodiac={selectedZodiac} />
+      <Details selectedZodiac={selectedZodiac-1} />
     </div>
   )
 }
