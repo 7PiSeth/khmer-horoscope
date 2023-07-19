@@ -5,8 +5,9 @@ import {
   GiSnake, GiHorseHead, GiGoat,
   GiMonkey, GiRooster, GiSittingDog, GiPig
 } from "react-icons/gi"
-import {SiHappycow} from "react-icons/si"
-import {FaPiggyBank} from "react-icons/fa"
+import { SiHappycow } from "react-icons/si"
+import { FaPiggyBank } from "react-icons/fa"
+import Details from './Details'
 
 const zodiacSignImgArr = [
   { id: 1, zodiac: <GiRat className='text-[63px] sm:text-[73px]' />, name: 'ជូត' },
@@ -23,26 +24,27 @@ const zodiacSignImgArr = [
   { id: 12, zodiac: <FaPiggyBank className='text-[63px] sm:text-[70px]' />, name: 'កុរ' },
 ]
 
-const ZodiacSigns = () => {
-  const [selectedZodiac, setSelectedZodiac] = useState("ឆ្លូវ");
+const Container = () => {
+  const [selectedZodiac, setSelectedZodiac] = useState(1);
   return (
-    <div>
+    <div className='sm:my-10'>
       <div className='flex flex-wrap justify-center'>
         {zodiacSignImgArr.map(({ id, zodiac, name }) => (
           <div key={id} className={`flex flex-col m-1 items-center justify-end
-          duration-100 cursor-pointer active:scale-150
-          ${selectedZodiac === name?'animate-pulse text-blue-700 dark:text-yellow-400':''}`}
-          onClick={()=> {
-            setSelectedZodiac(name)
-          }}>
+          duration-200 cursor-pointer active:scale-150
+          ${selectedZodiac === id ? 'animate-pulse' : ''}`}
+            onClick={() => {
+              setSelectedZodiac(id)
+            }}>
             {zodiac}
             <h1 className='mt-1 text-[14px] sm:text-[15px]'>{name}</h1>
           </div>
         ))
         }
       </div>
+      <Details selectedZodiac={selectedZodiac - 1} />
     </div>
   )
 }
 
-export default ZodiacSigns
+export default Container
