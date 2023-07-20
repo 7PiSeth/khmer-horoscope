@@ -11,7 +11,7 @@ module.exports = {
       'chenla': ['chenla', 'serif'] // Ensure fonts with spaces have " " surrounding it.
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
   darkMode: 'class',
 }
 

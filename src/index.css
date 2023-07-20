@@ -40,6 +40,12 @@
     @apply bg-gradient-to-r from-cyan-500 to-blue-500;
   }
   button {
-    @apply active:scale-150 duration-100 w-8;
+    @apply active:scale-150 duration-100 
+    font-battambang text-xl px-5 py-2 
+    rounded-xl bg-primary text-white font-extrabold;
+  }
+  .selection {
+    @apply text-xl font-battambang m-2 sm:m-7
+    dark:bg-[#1E2329] bg-[#F4F6F8];
   }
 }
