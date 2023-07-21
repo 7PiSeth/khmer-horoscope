@@ -7,8 +7,10 @@ module.exports = {
     extend: {},
     fontFamily: {
       'battambang': ['battambang', 'sans-serif'],
-      'content': ['Content', 'serif'], // Ensure fonts with spaces have " " surrounding it.
-      'chenla': ['chenla', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+      'content': ['Content', 'serif'],
+      'chenla': ['chenla', 'serif'],
+      'moul': ['moul', 'serif'], 
+      'moulpali': ['moulpali', 'serif'], 
     },
   },
   plugins: [require("daisyui")],

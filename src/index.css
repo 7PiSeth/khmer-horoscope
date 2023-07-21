@@ -41,8 +41,8 @@
   }
   button {
     @apply active:scale-150 duration-100 
-    font-battambang text-xl px-5 py-2 
-    rounded-xl bg-primary text-white font-extrabold;
+    font-moulpali text-xl px-5 py-2 
+    rounded-xl bg-primary text-white;
   }
   .selection {
     @apply text-xl font-battambang m-2 sm:m-7
