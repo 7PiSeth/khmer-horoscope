@@ -3,7 +3,6 @@ import topleft from "../assets/images/position/top-left.png"
 import topright from "../assets/images/position/top-right.png"
 import bottoomleft from "../assets/images/position/bottom-left.png"
 import bottomright from "../assets/images/position/bottom-right.png"
-import khframe from "../assets/images/position/khframe.png"
 const resultArr = [
   "គូរព្រេងរបស់លោកអ្នក ជាមនុស្សនិស្ស័យក៏ល្អ ឋានៈក៏ល្អ ជាមនុស្សម៉ាត់ណាម៉ាត់ហ្នឹង ចូលចិត្តរាប់អានមិត្ត ចូលចិត្តចូលរួមសង្គម មានចិត្តមានៈតែអត់ធ្មត់។ គេជាមនុស្សដែលត្រូវការឲ្យអ្នកដទៃមកយកចិត្ត និងចូលចិត្តដើរលេងកំសាន្តគ្រប់ទីកន្លែង។ ពេលខ្លះ គេធ្វើរូមែនទិចណាស់។ តែសូមប្រយ័ត្នបន្តិច! ព្រោះគេជាមនុស្សព្រានសម្បើមណាស់។"
   ,
@@ -25,7 +24,7 @@ const resultArr = [
   ,
   "គូព្រេងរបស់លោកអ្នក ជាមនុស្សមានសម្បុរស ជាមនុស្សម្នាក់ស្ងប់ស្ងាត់ចូលចិត្តគិតអ្វីដែលមិនដូចគេ និងមិនសូវខ្វល់ពីការគិតឃើញរបស់អ្នកផ្សេងឡើយ។ គេចូលចិត្តធ្វើខ្លួនជាអ្នកដឹកនាំ ហើយមានចរិករាងផ្តាច់ ការបន្តិចចូលចិត្តអង្គុយស្រមៃគិតអ្វីតែម្នាក់ឯង ព្រោះជាមនុស្សស្ងប់ស្ងៀមស្រាប់ទៅហើយ៕ "
   ,
-  "ទស្សន៏ទាយគូរព្រេងរបស់លោកអ្នក តាមរយៈថ្ងៃខែឆ្នាំកំណើត។ លោកអ្នកអាចទាយដឹងថាគូរព្រេង របស់លោកអ្នកជាមនុស្សរបៀបណា អត្តចរិតយ៉ាងដូចម្តេចបានដោយគ្រាន់តែ ធ្វើការជ្រើសរើសថ្ងៃ... ខែ... ឆ្នាំកំណើតរបស់មនុស្សដែលអ្នកស្រឡាញ់ កម្មវីធីនឹងធ្វើការទស្សន៍ទាយសំរាប់លោកអ្នក៕"
+  "ទស្សន៏ទាយគូរព្រេងរបស់លោកអ្នក តាមរយៈថ្ងៃខែឆ្នាំកំណើត។ លោកអ្នកអាចទាយដឹងថាគូរព្រេង របស់លោកអ្នកជាមនុស្សរបៀបណា អត្តចរិតយ៉ាងដូចម្តេចបានដោយគ្រាន់តែ ធ្វើការជ្រើសរើសថ្ងៃ... ខែ... ឆ្នាំកំណើតរបស់អ្នក កម្មវីធីនឹងធ្វើការទស្សន៍ទាយសំរាប់លោកអ្នក៕"
 ]
 
 export const KhPredictionByDateOfBirth = () => {
@@ -33,8 +32,8 @@ export const KhPredictionByDateOfBirth = () => {
   return (
     <div>
       <div className="flex flex-col items-center">
-        <h1 className="font-moul tracking-wider leading-loose text-center text-2xl">
-        ទស្សន៍ទាយគូព្រេងតាមរយៈថ្ងៃខែឆ្នាំកំណើត
+        <h1 className="font-moul tracking-wider leading-loose text-center text-xl sm:text-2xl">
+        ទស្សន៍ទាយគូព្រេងតាមរយៈថ្ងៃខែឆ្នាំកំណើតរបស់អ្នក
         </h1>
         <div className="flex flex-wrap justify-center font-battambang">
           <select id="selectDay" className="selection select w-fit">
@@ -96,10 +95,13 @@ export const KhPredictionByDateOfBirth = () => {
           }
           setResult(calculatedValue)
         }}>ទស្សន៍ទាយ</button>
-        <div className="px-8 sm:min-h-[450px] min-h-[350px] max-w-screen-sm relative flex items-center">
-          <img className={`absolute top-0 left-0 w-full`} src={khframe} alt="" />
-          <p className="font-battambang text-xl leading-relaxed 
-          indent-10 tracking-wide">{resultArr[result]}</p>
+        <div className="max-w-screen-sm relative flex items-center p-1">
+          <img className={`absolute h-24 sm:h-28 top-0 -left-0`} src={topleft} alt="" />
+          <img className={`absolute h-24 sm:h-28 top-0 right-0`} src={topright} alt="" />
+          <img className={`absolute h-24 sm:h-28 bottom-0 left-0`} src={bottoomleft} alt="" />
+          <img className={`absolute h-24 sm:h-28 bottom-0 right-0`} src={bottomright} alt="" />
+          <p className="font-battambang text-xl leading-relaxed px-8 py-16 sm:py-24
+          indent-10 tracking-wide border-2 sm:border-4 border-[#F3A33B]">{resultArr[result]}</p>
         </div>
       </div>
     </div>
