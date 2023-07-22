@@ -101,7 +101,8 @@ export const KhPredictionByDateOfBirth = () => {
           <img className={`absolute h-24 sm:h-28 bottom-0 left-0`} src={bottoomleft} alt="" />
           <img className={`absolute h-24 sm:h-28 bottom-0 right-0`} src={bottomright} alt="" />
           <p className="font-battambang text-xl leading-relaxed px-8 py-16 sm:py-24
-          indent-10 tracking-wide border-2 sm:border-4 border-[#F3A33B]">{resultArr[result]}</p>
+          indent-10 tracking-wide border-2 sm:border-4 border-[#F3A33B]
+          w-[97vw] min-h-[300px]">{resultArr[result]}</p>
         </div>
       </div>
     </div>
