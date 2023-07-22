@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/khmer-horoscope/static/css/main.445a9f23.css",
-    "main.js": "/khmer-horoscope/static/js/main.ab8cc15a.js",
+    "main.css": "/khmer-horoscope/static/css/main.4e7fe995.css",
+    "main.js": "/khmer-horoscope/static/js/main.3ce1f8ea.js",
+    "static/media/khframe.png": "/khmer-horoscope/static/media/khframe.11145158fe3a27d1cabc.png",
     "static/media/9.jpg": "/khmer-horoscope/static/media/9.7f4e4337fa1601587cb6.jpg",
     "static/media/13.jpg": "/khmer-horoscope/static/media/13.2d50f7392a4e6a803afd.jpg",
     "static/media/11.jpg": "/khmer-horoscope/static/media/11.c4bf14dd167fb75ee8f4.jpg",
@@ -24,11 +25,11 @@
     "static/media/bottom-left.png": "/khmer-horoscope/static/media/bottom-left.129c2f2f3efa726d59e9.png",
     "static/media/top-left.png": "/khmer-horoscope/static/media/top-left.67193eec3584521c80d1.png",
     "index.html": "/khmer-horoscope/index.html",
-    "main.445a9f23.css.map": "/khmer-horoscope/static/css/main.445a9f23.css.map",
-    "main.ab8cc15a.js.map": "/khmer-horoscope/static/js/main.ab8cc15a.js.map"
+    "main.4e7fe995.css.map": "/khmer-horoscope/static/css/main.4e7fe995.css.map",
+    "main.3ce1f8ea.js.map": "/khmer-horoscope/static/js/main.3ce1f8ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.445a9f23.css",
-    "static/js/main.ab8cc15a.js"
+    "static/css/main.4e7fe995.css",
+    "static/js/main.3ce1f8ea.js"
   ]
 }
