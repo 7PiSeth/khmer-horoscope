@@ -1,16 +1,16 @@
 import React from "react";
 import TopBar from "./components/TopBar";
 import Footer from "./components/Footer";
-import Container from "./components/Container";
-import { HoroscopeByDateOfBirth } from "./components/HoroscopeByDateOfBirth";
+import KhHoroscope from "./components/KhHoroscope";
+import { KhPredictionByDateOfBirth } from "./components/KhPredictionByDateOfBirth";
 
 const App = () => {
   return (
     <div>
       <TopBar />
-      <div className="max-w-screen-lg px-1 mx-auto sm:py-7 py-3">
-        {/* <Container /> */}
-        <HoroscopeByDateOfBirth />
+      <div className="max-w-screen-lg px-1 mx-auto py-3">
+        <KhHoroscope />
+        <KhPredictionByDateOfBirth />
       </div>
       <Footer />
     </div>

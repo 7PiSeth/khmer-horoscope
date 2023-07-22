@@ -41,7 +41,7 @@
   }
   button {
     @apply active:scale-150 duration-100 
-    font-moulpali text-xl px-5 py-2 
+    font-battambang text-xl px-5 py-2 
     rounded-xl bg-primary text-white;
   }
   .selection {

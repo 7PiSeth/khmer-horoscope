@@ -24,10 +24,10 @@ const zodiacSignImgArr = [
   { id: 12, zodiac: <FaPiggyBank className='text-[63px] sm:text-[70px]' />, name: 'កុរ' },
 ]
 
-const Container = () => {
+const KhHoroscope = () => {
   const [selectedZodiac, setSelectedZodiac] = useState(2);
   return (
-    <div className='sm:my-10'>
+    <div className='my-14'>
       <div className='flex flex-wrap justify-center'>
         {zodiacSignImgArr.map(({ id, zodiac, name }) => (
           <div key={id} className={`flex flex-col m-1 items-center justify-end
@@ -37,7 +37,7 @@ const Container = () => {
               setSelectedZodiac(id)
             }}>
             {zodiac}
-            <h1 className='mt-1 text-[14px] sm:text-[15px]'>{name}</h1>
+            <h1 className='font-moul font-extralight mt-1 text-[14px] sm:text-[15px]'>{name}</h1>
           </div>
         ))
         }
@@ -47,4 +47,4 @@ const Container = () => {
   )
 }
 
-export default Container
+export default KhHoroscope

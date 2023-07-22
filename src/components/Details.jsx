@@ -105,13 +105,13 @@ const Details = (props) => {
   return (
     <div>
       <div className='flex max-sm:flex-wrap justify-center items-start mt-7'>
-        <img className='max-sm:order-1 rounded-l-lg w-[50%] sm:w-60 sm:h-96 h-64 object-cover object-top' src={mArr[Math.floor(Math.random() * mArr.length)]} alt="" />
+        <img className='max-sm:order-1 rounded-l-lg w-[50%] sm:w-60 sm:h-96 h-72 object-cover object-top' src={mArr[Math.floor(Math.random() * mArr.length)]} alt="" />
         <div className='max-sm:order-3 text-center max-sm:p-5 px-5'>
-          <h1 className='sm:text-[24px] text-[20px] leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].header}</h1>
-          <p className='text-[18px] font-chenla leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].subHeader}</p>
-          <p className='text-left sm:text-[18px] font-battambang leading-relaxed tracking-wide indent-7'>{khHoroscopeArr[props.selectedZodiac].content}</p>
+          <h1 className='sm:text-[26px] text-[22px] leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].header}</h1>
+          <p className='text-xl font-extrabold  font-chenla leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].subHeader}</p>
+          <p className='text-left text-xl font-battambang leading-relaxed tracking-wide indent-7'>{khHoroscopeArr[props.selectedZodiac].content}</p>
         </div>
-        <img className='max-sm:order-2 rounded-r-lg w-[50%] sm:w-60 sm:h-96 h-64 object-cover object-top' src={wArr[Math.floor(Math.random() * wArr.length)]} alt="" />
+        <img className='max-sm:order-2 rounded-r-lg w-[50%] sm:w-60 sm:h-96 h-72 object-cover object-top' src={wArr[Math.floor(Math.random() * wArr.length)]} alt="" />
       </div>
     </div>
   )
