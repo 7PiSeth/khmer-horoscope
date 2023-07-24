@@ -24,56 +24,56 @@ export const KhPredictionByDateOfBirth = () => {
     <div>
       <div className="flex flex-col items-center">
         <img className="sm:w-[50vw] w-[100vw]" src={kbachkhmer} alt="" />
-        <h1 className="font-moul tracking-wider leading-loose text-center 
+        <h1 className="mt-1 font-moul tracking-wider leading-loose text-center 
         px-5 text-xl sm:text-2xl">
-          ទស្សន៍ទាយគូព្រេងតាមរយៈថ្ងៃខែឆ្នាំកំណើត
+          ទស្សន៍ទាយគូព្រេងរបស់អ្នក
         </h1>
-        <div className="flex flex-wrap justify-center font-battambang">
-          <select id="selectDay" className="selection select w-fit">
+        <div className="flex justify-center font-battambang w-full">
+          <select id="selectDay" className="selection select w-[35vw] sm:w-fit">
             <option disabled selected>
-              ថ្ងៃកំណើត
+              ថ្ងៃ
             </option>
-            <option value={1}>ថ្ងៃអាទិត្យ</option>
-            <option value={2}>ថ្ងៃចន្ទ</option>
-            <option value={3}>ថ្ងៃអង្គារ</option>
-            <option value={4}>ថ្ងៃពុធ</option>
-            <option value={5}>ថ្ងៃព្រហសត្បិ៏</option>
-            <option value={6}>ថ្ងៃសុក្រ</option>
-            <option value={7}>ថ្ងៃសៅរ៏</option>
+            <option value={1}>អាទិត្យ</option>
+            <option value={2}>ចន្ទ</option>
+            <option value={3}>អង្គារ</option>
+            <option value={4}>ពុធ</option>
+            <option value={5}>ព្រហស្បតិ៍</option>
+            <option value={6}>សុក្រ</option>
+            <option value={7}>សៅរ៏</option>
           </select>
-          <select id="selectMonth" className="selection select w-fit">
+          <select id="selectMonth" className="selection select w-[30vw] sm:w-fit">
             <option disabled selected>
-              ខែកំណើត
+              ខែ
             </option>
-            <option value={1}>ខែមករា</option>
-            <option value={2}>ខែកុម្ភៈ</option>
-            <option value={3}>ខែមិនា</option>
-            <option value={4}>ខែមេសា</option>
-            <option value={5}>ខែឧសភា</option>
-            <option value={6}>ខែមិថុនា</option>
-            <option value={7}>ខែកក្កដា</option>
-            <option value={8}>ខែសីហា</option>
-            <option value={9}>ខែកញ្ញា</option>
-            <option value={10}>ខែតុលា</option>
-            <option value={11}>ខែវិច្ឆិកា</option>
-            <option value={12}>ខែធ្នូ</option>
+            <option value={1}>មករា</option>
+            <option value={2}>កុម្ភៈ</option>
+            <option value={3}>មិនា</option>
+            <option value={4}>មេសា</option>
+            <option value={5}>ឧសភា</option>
+            <option value={6}>មិថុនា</option>
+            <option value={7}>កក្កដា</option>
+            <option value={8}>សីហា</option>
+            <option value={9}>កញ្ញា</option>
+            <option value={10}>តុលា</option>
+            <option value={11}>វិច្ឆិកា</option>
+            <option value={12}>ធ្នូ</option>
           </select>
-          <select id="selectZodiac" className="selection select w-40">
+          <select id="selectZodiac" className="selection select w-[27vw] sm:w-fit">
             <option disabled selected>
-              ឆ្នាំកំណើត
+              ឆ្នាំ
             </option>
-            <option value={1}>ឆ្នាំជូត</option>
-            <option value={2}>ឆ្នាំឆ្លូវ</option>
-            <option value={3}>ឆ្នាំខាល</option>
-            <option value={4}>ឆ្នាំថោះ</option>
-            <option value={5}>ឆ្នាំរោង</option>
-            <option value={6}>ឆ្នាំម្សាញ់</option>
-            <option value={7}>ឆ្នាំមមី</option>
-            <option value={8}>ឆ្នាំមមែ</option>
-            <option value={9}>ឆ្នាំវក</option>
-            <option value={10}>ឆ្នាំរការ</option>
-            <option value={11}>ឆ្នាំច</option>
-            <option value={12}>ឆ្នាំកុរ</option>
+            <option value={1}>ជូត</option>
+            <option value={2}>ឆ្លូវ</option>
+            <option value={3}>ខាល</option>
+            <option value={4}>ថោះ</option>
+            <option value={5}>រោង</option>
+            <option value={6}>ម្សាញ់</option>
+            <option value={7}>មមី</option>
+            <option value={8}>មមែ</option>
+            <option value={9}>វក</option>
+            <option value={10}>រការ</option>
+            <option value={11}>ច</option>
+            <option value={12}>កុរ</option>
           </select>
         </div>
         <button
@@ -99,29 +99,29 @@ export const KhPredictionByDateOfBirth = () => {
         </button>
         <div className="max-w-screen-sm relative flex items-center p-1">
           <img
-            className={`absolute h-24 sm:h-28 top-0 -left-0`}
+            className={`absolute h-20 sm:h-28 top-0 -left-0`}
             src={topleft}
             alt=""
           />
           <img
-            className={`absolute h-24 sm:h-28 top-0 right-0`}
+            className={`absolute h-20 sm:h-28 top-0 right-0`}
             src={topright}
             alt=""
           />
           <img
-            className={`absolute h-24 sm:h-28 bottom-0 left-0`}
+            className={`absolute h-20 sm:h-28 bottom-0 left-0`}
             src={bottoomleft}
             alt=""
           />
           <img
-            className={`absolute h-24 sm:h-28 bottom-0 right-0`}
+            className={`absolute h-20 sm:h-28 bottom-0 right-0`}
             src={bottomright}
             alt=""
           />
           <p
             className="font-battambang text-xl leading-relaxed px-8 py-16 sm:py-24
           indent-10 tracking-wide border-[1px]  sm:border-2 border-[#F3A33B]
-          w-[93vw] min-h-[300px]"
+          w-[97vw] min-h-[300px]"
           >
             {resultArr[result]}
           </p>
