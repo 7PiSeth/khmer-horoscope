@@ -27,7 +27,7 @@ const zodiacSignImgArr = [
 const KhHoroscope = () => {
   const [selectedZodiac, setSelectedZodiac] = useState(2);
   return (
-    <div className='my-14'>
+    <div className='mt-14'>
       <div className='flex flex-wrap justify-center'>
         {zodiacSignImgArr.map(({ id, zodiac, name }) => (
           <div key={id} className={`flex flex-col m-1 items-center justify-end
