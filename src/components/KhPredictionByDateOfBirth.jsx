@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import topleft from "../assets/images/position/top-left.png";
-import topright from "../assets/images/position/top-right.png";
-import bottoomleft from "../assets/images/position/bottom-left.png";
-import bottomright from "../assets/images/position/bottom-right.png";
+import khdecorator from "../assets/images/position/top-left.png";
 import kbachkhmer from "../assets/images/kbachkhmer.png";
 const resultArr = [
   "គូរព្រេងរបស់លោកអ្នក ជាមនុស្សនិស្ស័យក៏ល្អ ឋានៈក៏ល្អ ជាមនុស្សម៉ាត់ណាម៉ាត់ហ្នឹង ចូលចិត្តរាប់អានមិត្ត ចូលចិត្តចូលរួមសង្គម មានចិត្តមានៈតែអត់ធ្មត់។ គេជាមនុស្សដែលត្រូវការឲ្យអ្នកដទៃមកយកចិត្ត និងចូលចិត្តដើរលេងកំសាន្តគ្រប់ទីកន្លែង។ ពេលខ្លះ គេធ្វើរូមែនទិចណាស់។ តែសូមប្រយ័ត្នបន្តិច! ព្រោះគេជាមនុស្សព្រានសម្បើមណាស់។",
@@ -100,22 +97,22 @@ export const KhPredictionByDateOfBirth = () => {
         <div className="max-w-screen-sm relative flex items-center p-1">
           <img
             className={`absolute h-20 sm:h-28 top-0 -left-0`}
-            src={topleft}
+            src={khdecorator}
             alt=""
           />
           <img
-            className={`absolute h-20 sm:h-28 top-0 right-0`}
-            src={topright}
+            className={`absolute h-20 sm:h-28 top-0 right-0 rotate-90`}
+            src={khdecorator}
             alt=""
           />
           <img
-            className={`absolute h-20 sm:h-28 bottom-0 left-0`}
-            src={bottoomleft}
+            className={`absolute h-20 sm:h-28 bottom-0 left-0 -rotate-90`}
+            src={khdecorator}
             alt=""
           />
           <img
-            className={`absolute h-20 sm:h-28 bottom-0 right-0`}
-            src={bottomright}
+            className={`absolute h-20 sm:h-28 bottom-0 right-0 rotate-180`}
+            src={khdecorator}
             alt=""
           />
           <p
