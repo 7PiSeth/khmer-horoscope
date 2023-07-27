@@ -45,7 +45,7 @@
     rounded-xl bg-primary text-white;
   }
   .selection {
-    @apply text-xl font-battambang m-1 sm:m-7 text-center
+    @apply text-xl font-battambang font-medium sm:mx-5 text-center mx-1
     dark:bg-[#1E2329] bg-[#F4F6F8];
   }
 }

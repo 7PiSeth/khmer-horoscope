@@ -19,11 +19,11 @@ export const KhPredictionByDateOfBirth = () => {
   const [result, setResult] = useState(10);
   return (
     <div>
-      <div className="flex flex-col items-center">
-        <img className="sm:w-[50vw] w-[100vw]" src={kbachkhmer} alt="" />
-        <h1 className="mt-1 font-moul tracking-wider leading-loose text-center 
+      <div className="max-w-screen-sm flex flex-col items-center mx-auto gap-2 sm:gap-3">
+        <img className="w-[100vw]" src={kbachkhmer} alt="" />
+        <h1 className="font-moul tracking-wider leading-loose text-center 
         px-5 text-xl sm:text-2xl">
-          ទស្សន៍ទាយគូព្រេងរបស់អ្នក
+          ទស្សន៍ទាយអំពីគូព្រេង
         </h1>
         <div className="flex justify-center font-battambang w-full">
           <select id="selectDay" className="selection select w-[35vw] sm:w-fit">
@@ -74,7 +74,6 @@ export const KhPredictionByDateOfBirth = () => {
           </select>
         </div>
         <button
-          className="m-3"
           onClick={() => {
             var calculatedValue = 10;
             var selectedDay = document.getElementById("selectDay").value;
@@ -94,31 +93,31 @@ export const KhPredictionByDateOfBirth = () => {
         >
           ទស្សន៍ទាយ
         </button>
-        <div className="max-w-screen-sm relative flex items-center p-1">
+        <div className="max-w-screen-sm relative flex items-center">
           <img
-            className={`absolute h-20 sm:h-28 top-0 -left-0`}
+            className={`absolute h-20 sm:h-28 -top-1 -left-1`}
             src={khdecorator}
             alt=""
           />
           <img
-            className={`absolute h-20 sm:h-28 top-0 right-0 rotate-90`}
+            className={`absolute h-20 sm:h-28 -top-1 -right-1 rotate-90`}
             src={khdecorator}
             alt=""
           />
           <img
-            className={`absolute h-20 sm:h-28 bottom-0 left-0 -rotate-90`}
+            className={`absolute h-20 sm:h-28 -bottom-1 -left-1 -rotate-90`}
             src={khdecorator}
             alt=""
           />
           <img
-            className={`absolute h-20 sm:h-28 bottom-0 right-0 rotate-180`}
+            className={`absolute h-20 sm:h-28 -bottom-1 -right-1 rotate-180`}
             src={khdecorator}
             alt=""
           />
           <p
-            className="font-battambang text-xl leading-relaxed px-8 py-16 sm:py-24
+            className="font-battambang text-xl leading-relaxed p-10 sm:p-16
           indent-10 tracking-wide border-[1px]  sm:border-2 border-[#F3A33B]
-          w-[97vw] min-h-[300px]"
+          w-[94vw] min-h-[300px]"
           >
             {resultArr[result]}
           </p>
