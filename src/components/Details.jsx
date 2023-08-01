@@ -104,12 +104,12 @@ const khHoroscopeArr = [
 const Details = (props) => {
   return (
     <div>
-      <div className='flex max-lg:flex-wrap justify-center items-center mt-7'>
+      <div className='flex max-lg:flex-wrap justify-center items-center mt-2'>
         <img className='max-lg:order-1 rounded-l-lg w-[47vw] lg:w-[28%] h-[65vw] lg:h-[450px] object-cover object-top' src={mArr[Math.floor(Math.random() * mArr.length)]} alt="" />
         <div className='max-lg:order-3 text-center max-lg:p-5 px-5'>
           <h1 className='md:text-[26px] text-[22px] leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].header}</h1>
-          <p className='text-xl font-extrabold  font-chenla leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].subHeader}</p>
-          <p className='text-left text-xl font-battambang leading-relaxed tracking-wide indent-7'>{khHoroscopeArr[props.selectedZodiac].content}</p>
+          <p className='text-xl leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].subHeader}</p>
+          <p className='text-left text-xl leading-relaxed indent-7'>{khHoroscopeArr[props.selectedZodiac].content}</p>
         </div>
         <img className='max-lg:order-2 rounded-r-lg w-[47vw] lg:w-[28%] h-[65vw] lg:h-[450px] object-cover object-top' src={wArr[Math.floor(Math.random() * wArr.length)]} alt="" />
       </div>

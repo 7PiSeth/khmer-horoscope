@@ -58,7 +58,7 @@ const Footer = (props) => {
         </a>
 
       </div>
-      <p class="md:mr-5 text-center">
+      <p class="md:mr-5 text-center font-poppins">
         Copyright © 2023 <b>PiSeth</b> | All Rights Reserved
       </p>
     </div>

@@ -6,12 +6,12 @@
 
 @layer base {
   html {
-    font-family: "Poppins", sans-serif;
+    font-family: "suwannaphum", sans-serif;
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
   h1 {
-    font-family: "Moulpali", sans-serif;
+    font-family: "dangrek", sans-serif;
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
@@ -45,7 +45,7 @@
     rounded-xl bg-primary text-white;
   }
   .selection {
-    @apply text-xl font-battambang font-medium sm:mx-5 text-center mx-1
+    @apply text-xl font-medium sm:mx-5 text-center mx-1
     dark:bg-[#1E2329] bg-[#F4F6F8];
   }
 }

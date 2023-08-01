@@ -37,7 +37,7 @@ const KhHoroscope = () => {
               setSelectedZodiac(id)
             }}>
             {zodiac}
-            <h1 className='font-moul font-extralight mt-1 text-[14px] sm:text-[15px]'>{name}</h1>
+            <p className='font-koulen mt-1 text-[18px] sm:text-[22px]'>{name}</p>
           </div>
         ))
         }
