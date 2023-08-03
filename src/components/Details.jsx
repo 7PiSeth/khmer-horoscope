@@ -159,7 +159,7 @@ const Details = (props) => {
           <p className='text-xl leading-loose tracking-wide'>{khHoroscopeArr[props.selectedZodiac].subHeader}</p>
           <p className='text-left text-xl leading-relaxed indent-7'>{khHoroscopeArr[props.selectedZodiac].content}</p>
           <div style={{ backgroundImage: `url(${heartbgimg})`, backgroundSize:`contain`, backgroundRepeat:`no-repeat`, backgroundPosition:`center` }}
-          className='min-h-[150px]'>
+          className='min-h-[200px]'>
             <h1 className='md:text-[26px] text-[22px] text-[#E61D23]'>ជីវិតគូ</h1>
             <p className='text-left text-xl py-2'><b>បុរស៖</b> {khHoroscopeArr[props.selectedZodiac].loveLife[0]}</p>
             <p className='text-left text-xl'><b>ស្ត្រី៖</b> {khHoroscopeArr[props.selectedZodiac].loveLife[1]}</p>
