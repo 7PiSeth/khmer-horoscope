@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/khmer-horoscope/static/css/main.0995a742.css",
-    "main.js": "/khmer-horoscope/static/js/main.9e113768.js",
+    "main.css": "/khmer-horoscope/static/css/main.839a4339.css",
+    "main.js": "/khmer-horoscope/static/js/main.639ea6ef.js",
     "static/media/top-left.png": "/khmer-horoscope/static/media/top-left.8bafa7a9a4fa9823a36c.png",
     "static/media/9.jpg": "/khmer-horoscope/static/media/9.7f4e4337fa1601587cb6.jpg",
     "static/media/kbachkhmer.png": "/khmer-horoscope/static/media/kbachkhmer.03a0753176e8a4257ab0.png",
+    "static/media/16.jpg": "/khmer-horoscope/static/media/16.6e0a6a185788e811c0a1.jpg",
     "static/media/13.jpg": "/khmer-horoscope/static/media/13.2d50f7392a4e6a803afd.jpg",
     "static/media/11.jpg": "/khmer-horoscope/static/media/11.c4bf14dd167fb75ee8f4.jpg",
-    "static/media/17.jpg": "/khmer-horoscope/static/media/17.71a3c2890c739950c936.jpg",
+    "static/media/17.jpg": "/khmer-horoscope/static/media/17.d1587f54859a442d3580.jpg",
     "static/media/12.jpg": "/khmer-horoscope/static/media/12.f5f6c7bec90c5b4bce3c.jpg",
     "static/media/15.jpg": "/khmer-horoscope/static/media/15.28194295d8eebdbd9d7e.jpg",
     "static/media/10.jpg": "/khmer-horoscope/static/media/10.dce9620cdd249b7f820b.jpg",
@@ -19,14 +20,14 @@
     "static/media/14.jpg": "/khmer-horoscope/static/media/14.89d4df541c011ba00931.jpg",
     "static/media/8.jpg": "/khmer-horoscope/static/media/8.98f83afc4fb4f889a893.jpg",
     "static/media/2.jpg": "/khmer-horoscope/static/media/2.ff90013e78d44821e1e5.jpg",
-    "static/media/16.jpg": "/khmer-horoscope/static/media/16.6e0a6a185788e811c0a1.jpg",
+    "static/media/heartbgimg.png": "/khmer-horoscope/static/media/heartbgimg.ee7735d5300c38098e77.png",
     "static/media/1.jpg": "/khmer-horoscope/static/media/1.7020cd7c643f5b941ad5.jpg",
     "index.html": "/khmer-horoscope/index.html",
-    "main.0995a742.css.map": "/khmer-horoscope/static/css/main.0995a742.css.map",
-    "main.9e113768.js.map": "/khmer-horoscope/static/js/main.9e113768.js.map"
+    "main.839a4339.css.map": "/khmer-horoscope/static/css/main.839a4339.css.map",
+    "main.639ea6ef.js.map": "/khmer-horoscope/static/js/main.639ea6ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.0995a742.css",
-    "static/js/main.9e113768.js"
+    "static/css/main.839a4339.css",
+    "static/js/main.639ea6ef.js"
   ]
 }
