@@ -3,7 +3,7 @@ import {
   GiRat, GiTigerHead,
   GiRabbit, GiSpikedDragonHead,
   GiSnake, GiHorseHead, GiGoat,
-  GiMonkey, GiRooster, GiSittingDog, GiPig
+  GiMonkey, GiRooster, GiSittingDog
 } from "react-icons/gi"
 import { SiHappycow } from "react-icons/si"
 import { FaPiggyBank } from "react-icons/fa"
@@ -25,7 +25,7 @@ const zodiacSignImgArr = [
 ]
 
 const KhHoroscope = () => {
-  const [selectedZodiac, setSelectedZodiac] = useState(2);
+  const [selectedZodiac, setSelectedZodiac] = useState(4);
   return (
     <div className='mt-14'>
       <div className='flex flex-wrap lg:justify-between justify-center'>
@@ -42,7 +42,7 @@ const KhHoroscope = () => {
         ))
         }
       </div>
-      <Details selectedZodiac={selectedZodiac-1} />
+      <Details selectedZodiac={selectedZodiac-1} index={selectedZodiac-1} />
     </div>
   )
 }

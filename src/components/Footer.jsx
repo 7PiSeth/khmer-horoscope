@@ -15,7 +15,7 @@ const Footer = (props) => {
     >
       <div className="flex social-link">
         <a
-          href="https://pisethseam.github.io/maportfolio/"
+          href="https://it-phnomden.github.io/maportfolio/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -59,7 +59,7 @@ const Footer = (props) => {
 
       </div>
       <p class="md:mr-5 text-center font-poppins">
-        Copyright © 2023 <b>PiSeth</b> | All Rights Reserved
+      Designed and Developed by <span className="font-koulen">អាយធី ភ្នំដិន</span>
       </p>
     </div>
   );
