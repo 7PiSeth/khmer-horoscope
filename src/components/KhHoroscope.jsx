@@ -25,7 +25,8 @@ const zodiacSignImgArr = [
 ]
 
 const KhHoroscope = () => {
-  const [selectedZodiac, setSelectedZodiac] = useState(4);
+  // const [selectedZodiac, setSelectedZodiac] = useState(4);
+  const [selectedZodiac, setSelectedZodiac] = useState(2);
   return (
     <div className='mt-14'>
       <div className='flex flex-wrap lg:justify-between justify-center'>
@@ -42,7 +43,8 @@ const KhHoroscope = () => {
         ))
         }
       </div>
-      <Details selectedZodiac={selectedZodiac-1} index={selectedZodiac-1} />
+      {/* <Details selectedZodiac={selectedZodiac-1} index={selectedZodiac-1} /> */}
+      <Details selectedZodiac={selectedZodiac-1} />
     </div>
   )
 }
